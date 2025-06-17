@@ -12,7 +12,7 @@ if (!map || !type || !side) {
 } else {
   titleEl.textContent = `${map.toUpperCase()} – ${side.toUpperCase()} ${type}`;
 
-  const metadataPath = `/videos/${map}/${type}/${side}/metadata.json`;
+  const metadataPath = `monkekingdom/videos/${map}/${type}/${side}/metadata.json`;
 
   fetch(metadataPath)
     .then(res => res.json())
