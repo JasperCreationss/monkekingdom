@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u-QB8NiufOE",
+    "title": "Mirage - A Site - Stair Smoke",
+    "map": "Mirage",
+    "site": "A",
+    "type": "smoke",
+    "side": "T"
+  },
+  {
+    "id": "ay6BM1woz9Q",
+    "title": "Mirage - B Site - Arch Smoke",
+    "map": "Mirage",
+    "site": "B",
+    "type": "smoke",
+    "side": "T"
+  },
+  {
+    "id": "jFIhrBuuqPA",
+    "title": "Mirage - B Site - Market Door Smoke",
+    "map": "Mirage",
+    "site": "B",
+    "type": "smoke",
+    "side": "T"
+  }
+]
