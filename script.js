@@ -12,10 +12,7 @@ if (!map || !type || !side) {
 } else {
   titleEl.textContent = `${map.toUpperCase()} – ${side.toUpperCase()} ${type}`;
 
-  const isLocal =
-    window.location.hostname === "localhost" ||
-    window.location.hostname === "127.0.0.1";
-  const basePath = isLocal ? "" : "/monkekingdom";
+  const basePath = "/monkekingdom";
   const metadataPath = `${basePath}/videos/${map}/${type}/${side}/metadata.json`;
 
   fetch(metadataPath)
